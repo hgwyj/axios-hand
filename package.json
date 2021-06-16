@@ -1,0 +1,17 @@
+{
+  "name": "axios-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --watch src/index --ext ts --exec ts-node src/test.ts"
+  },
+  "dependencies": {
+    "parse-headers": "^2.0.3",
+    "qs": "^6.10.1",
+    "ts-node": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.9.6"
+  }
+}
